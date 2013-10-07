@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width,initial-scale=1.0' name='viewport'>
+    <title>Codely.</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700' rel='stylesheet'>
+    <link href='assets/css/style.css' rel='stylesheet'>
+    <link href='assets/img/favicon.ico' rel='shortcut icon'>
+  </head>
+  <body>
+    <div class='l-container'>
+      <header class='island island--banner island--flush l-header'>
+        <h1 class='kilo'>Codely.</h1>
+      </header>
+      <div class='island island--flush grid l-actions'>
+        <div class='grid__item one-half'>
+          <a class='btn btn--small btn--full btn--primary' id='js-save'>Save</a>
+        </div>
+        <div class='grid__item one-half'>
+          <a class='btn btn--small btn--full btn--primary' id='js-clear'>Clear</a>
+        </div>
+      </div>
+      <div class='island island--flush l-main'>
+        <div id='js-edit'>
+          <!-- CodeMirror goes here! -->
+        </div>
+      </div>
+      <div class='island island--flush grid l-options'>
+        <div class='grid__item one-half'>
+          <p class='input--label'>Keymap:</p>
+          <select class='input--primary one-whole' id='js-keys'>
+            <option value='default'>Default</option>
+            <option value='vim'>Vim</option>
+            <option value='emacs'>Emacs</option>
+          </select>
+        </div>
+        <div class='grid__item one-half'>
+          <p class='input--label'>Language:</p>
+          <select class='input--primary one-whole' id='js-lang'>
+            <option value='htmlmixed'>HTML</option>
+            <option value='css'>CSS</option>
+            <option value='javascript'>JavaScript</option>
+            <option value='haml'>Haml</option>
+            <option value='jade'>Jade</option>
+            <option value='sass'>Sass</option>
+            <option value='less'>Less</option>
+            <option value='coffeescript'>CoffeeScript</option>
+            <option value='ruby'>Ruby</option>
+            <option value='python'>Python</option>
+            <option value='markdown'>Markdown</option>
+          </select>
+        </div>
+      </div>
+      <footer class='island island--banner island--flush l-footer'>
+        <p class='smallprint'>Another small thing by <a href="https://www.github.com/gummesson">Ellen Gummesson</a></p>
+      </footer>
+    </div>
+    <script src='assets/js/app.js'></script>
+  </body>
+</html>
