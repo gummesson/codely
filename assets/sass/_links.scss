@@ -1,0 +1,12 @@
+//---------
+//  Links
+//---------
+
+a {
+  color: inherit;
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}

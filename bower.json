@@ -1,0 +1,21 @@
+{
+  "name": "codely",
+  "version": "0.1.0",
+  "authors": [
+    "Ellen Gummesson <ellengummesson@gmail.com>"
+  ],
+  "description": "Store your code.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "codemirror": "~3.18.0",
+    "inuit.css": "~5.0.0"
+  }
+}

@@ -1,0 +1,27 @@
+//-------------
+//  Inuit.css
+//-------------
+
+// Base
+$base-font-family:       "Ubuntu Mono", Menlo, Monaco, "DejaVu Sans Mono", Consolas, "Liberation Mono", monospace;
+$base-ui-color:          #e7e9db;
+
+// Brand
+$brand-color:            #776e71;
+$brand-face:             $base-font-family;
+$brand-round:            0;
+
+// Grid
+$responsive:             false;
+
+// Objects
+$use-island:             true;
+$use-beautons:           true;
+
+//-----------
+//  Project
+//-----------
+
+// Base
+$base-font-color:        $brand-color;
+$base-background-color:  $base-ui-color;

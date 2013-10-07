@@ -1,0 +1,6 @@
+.sass-cache/
+node_modules/
+temp/
+public/
+assets/vendor/
+!assets/vendor/emmet/

@@ -1,0 +1,16 @@
+//--------
+//  Code
+//--------
+
+.CodeMirror {
+  font-family: $base-font-family!important;
+  @include font-size(12px);
+}
+
+.CodeMirror-fullscreen {
+  @include font-size(14px);
+}
+
+.CodeMirror.cm-keymap-fat-cursor div.CodeMirror-cursor {
+  background-color: #8d8687!important;
+}

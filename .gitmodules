@@ -1,0 +1,3 @@
+[submodule "assets/vendor/emmet"]
+	path = assets/vendor/emmet
+	url = https://github.com/emmetio/codemirror.git

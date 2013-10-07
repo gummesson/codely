@@ -1,0 +1,45 @@
+!!! 5
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}
+    %meta{:name => "viewport", :content => "width=device-width,initial-scale=1.0"}
+    %title Codely.
+    %link{:href => "http://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700", :rel => "stylesheet"}
+    %link{:href => "assets/css/style.css", :rel => "stylesheet"}
+    %link{:href => "assets/img/favicon.ico", :rel => "shortcut icon"}
+  %body
+    .l-container
+      %header.island.island--banner.island--flush.l-header
+        %h1.kilo Codely.
+      .island.island--flush.grid.l-actions
+        .grid__item.one-half
+          %a.btn.btn--small.btn--full.btn--primary{:id => "js-save"} Save
+        .grid__item.one-half
+          %a.btn.btn--small.btn--full.btn--primary{:id => "js-clear"} Clear
+      .island.island--flush.l-main
+        #js-edit
+          / CodeMirror goes here!
+      .island.island--flush.grid.l-options
+        .grid__item.one-half
+          %p.input--label Keymap:
+          %select#js-keys.input--primary.one-whole
+            %option{:value => "default"} Default
+            %option{:value => "vim"} Vim
+            %option{:value => "emacs"} Emacs
+        .grid__item.one-half
+          %p.input--label Language:
+          %select#js-lang.input--primary.one-whole
+            %option{:value => "htmlmixed"} HTML
+            %option{:value => "css"} CSS
+            %option{:value => "javascript"} JavaScript
+            %option{:value => "haml"} Haml
+            %option{:value => "jade"} Jade
+            %option{:value => "sass"} Sass
+            %option{:value => "less"} Less
+            %option{:value => "coffeescript"} CoffeeScript
+            %option{:value => "ruby"} Ruby
+            %option{:value => "python"} Python
+            %option{:value => "markdown"} Markdown
+      %footer.island.island--banner.island--flush.l-footer
+        %p.smallprint Another small thing by <a href="https://www.github.com/gummesson">Ellen Gummesson</a>
+    %script{:src => "assets/js/app.js"}
