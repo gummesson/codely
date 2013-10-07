@@ -2,5 +2,5 @@
 node_modules/
 temp/
 public/
-assets/vendor/
-!assets/vendor/emmet/
+assets/vendor/codemirror
+assets/vendor/inuit.css
