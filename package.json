@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://gummesson@bitbucket.org/gummesson/codely.git"
+    "url": "https://github.com/gummesson/codely.git"
   },
   "author": "Ellen Gummesson",
   "license": "MIT",
